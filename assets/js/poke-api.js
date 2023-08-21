@@ -2,7 +2,7 @@ const pokeApi = {};
 
 function convertPokemonpiDetaulToPokemon(pokemonsDetail) {
   const pokemon = new Pokemon();
-  pokemon.number = pokemonsDetail.order;
+  pokemon.number = ('000' + pokemonsDetail.id).slice(-3);
   pokemon.name = pokemonsDetail.name;
 
   const types = pokemonsDetail.types.map((typeSlot) => typeSlot.type.name);
