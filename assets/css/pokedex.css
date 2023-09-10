@@ -120,6 +120,7 @@
   max-width: 100%;
   height: 4.375rem;
   /* align-self: flex-end; */
+  overflow: hidden;
 }
 
 .pagination {
@@ -139,4 +140,12 @@
   background-color: #6c79db;
   border: none;
   border-radius: 1rem;
+}
+
+.detail__image {
+  transition: transform 0.8s;
+}
+
+.detail__image:hover {
+  transform: scale(1.5);
 }

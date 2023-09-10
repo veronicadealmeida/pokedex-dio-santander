@@ -31,14 +31,6 @@ body {
   }
 }
 
-.detail__image {
-  transition: transform 0.8s;
-}
-
-.detail__image:hover {
-  transform: scale(1.5);
-}
-
 @media screen and (min-width: 380px) {
   .pokemons {
     grid-template-columns: 1fr 1fr;
